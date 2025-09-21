@@ -1,0 +1,28 @@
+body{
+    font-family: "Segoe UI", Helvetica, sans-serif;
+}
+
+#CountLabel{
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family:"Alexa Std";
+}
+
+#ButtonContainer{
+    text-align: center;
+}
+
+.Buttons{
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: white;
+    background-color: #9084f3;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+.Buttons:hover{
+    background-color: #7064e3;
+
+}
